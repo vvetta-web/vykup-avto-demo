@@ -275,7 +275,7 @@
   .close__inner .v-lede { max-width: 42ch; }
   .close__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
   .close__tel { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; color: var(--v-ink); letter-spacing: -.01em; }
-  .close__hint { margin-top: var(--v-6); font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 46ch; }
+  .v-page .close__hint { margin: var(--v-6) 0 0; font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 46ch; }
   .close__meta { display: grid; gap: var(--v-3); color: var(--v-ink-soft); padding-top: var(--v-2); }
   .close__meta b { color: var(--v-ink); font-weight: 600; display: block; font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; margin-bottom: .2em; }
   .foot { display: flex; justify-content: space-between; gap: var(--v-4); padding: var(--v-6) 0 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); flex-wrap: wrap; }
@@ -293,8 +293,8 @@
       background: linear-gradient(to top, var(--v-canvas) 65%, transparent); }
     .cta-fix .v-btn { width: 100%; justify-content: center; text-align: center; }
     .cta-fix.is-hidden { display: none; }
-    /* нижний отступ страницы, чтобы закреплённая кнопка не наезжала на футер */
-    #zapis .close { padding-bottom: calc(var(--v-8) + 4.5rem + env(safe-area-inset-bottom)); }
+    /* финал: закреплённая кнопка там скрыта (is-hidden), большой отступ не нужен */
+    #zapis .close { padding-bottom: calc(var(--v-6) + env(safe-area-inset-bottom)); }
   }
 </style>
 </head>
