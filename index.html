@@ -1,0 +1,595 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Выкуп Авто · срочный выкуп автомобилей</title>
+<meta name="description" content="Срочный выкуп автомобилей в Барнауле: осмотр и расчёт при вас, цена после осмотра не меняется, деньги сразу, договор на месте.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:site_name" content="Выкуп Авто">
+<meta property="og:title" content="Срочный выкуп авто в Барнауле: деньги в день обращения">
+<meta property="og:description" content="Оценка по рынку при вас, цена не меняется после осмотра, деньги сразу, договор в офисе или на выезде.">
+<meta property="og:url" content="https://vykup-avto-barnaul.ru">
+<meta property="og:image" content="https://vykup-avto-barnaul.ru/assets/og.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" as="image" href="assets/hero-m.webp" media="(max-width: 860px)" fetchpriority="high">
+<link rel="preload" as="image" href="assets/hero.webp" media="(min-width: 861px)" fetchpriority="high">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Ccircle cx=%2716%27 cy=%2716%27 r=%2711%27 fill=%27none%27 stroke=%27%23d3dae1%27 stroke-width=%274%27/%3E%3Crect x=%2715%27 y=%274%27 width=%272%27 height=%2724%27 fill=%27%23d3dae1%27/%3E%3C/svg%3E">
+<link rel="stylesheet" href="vibe.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"AutoDealer","name":"Выкуп Авто","description":"Срочный выкуп автомобилей: осмотр и расчёт при вас, цена после осмотра не меняется, деньги сразу, договор на месте.","url":"https://vykup-avto-barnaul.ru","image":"https://vykup-avto-barnaul.ru/assets/og.jpg","telephone":"+7 900 000-00-00","openingHours":"09:00 – 21:00, без выходных","address":{"@type":"PostalAddress","streetAddress":"пр. Ленина, 100","addressLocality":"Барнаул","addressCountry":"RU"}}
+</script>
+<style>
+  /* ---- тема: шесть цветов, два шрифта --------------------------------- */
+  .v-page {
+    --v-canvas: #0c0d0f; --v-surface: #17191c;
+    --v-ink: #f1f2f4; --v-ink-soft: #9ba1a9;
+    --v-accent: #d3dae1; --v-accent-ink: #0c0d0f;
+    --v-font-display: "Rubik", "Arial", system-ui, sans-serif;
+    --v-font-text: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --v-shadow-color: 0 0 0;
+    --v-radius: 8px;
+    --v-display-weight: 700;
+    --v-track-tight: -0.025em;
+    /* полупрозрачные подложки считаем от палитры, чтобы смена палитры была одной правкой */
+    --v-canvas-85: color-mix(in oklab, var(--v-canvas) 85%, transparent);
+    --v-canvas-60: color-mix(in oklab, var(--v-canvas) 60%, transparent);
+    --v-accent-25: color-mix(in oklab, var(--v-accent) 25%, transparent);
+    --v-accent-10: color-mix(in oklab, var(--v-accent) 10%, transparent);
+  }
+  html, body { background: #0c0d0f; }
+  .v-page .v-lede { font-weight: 400; }
+  .v-page .v-label { font-weight: 500; }
+  .v-page .v-btn { font-size: var(--v-t-base); font-weight: 600; }
+  .v-page h3 { font-weight: 600; }
+
+  /* ---- шапка ------------------------------------------------------------ */
+  .bar { position: fixed; inset: 0 0 auto 0; z-index: 30; display: flex; align-items: center; justify-content: space-between;
+    padding: var(--v-3) var(--v-gutter); gap: var(--v-4);
+    background: linear-gradient(to bottom, var(--v-canvas-85), transparent);
+    transition: background-color .3s var(--v-ease-out), box-shadow .3s var(--v-ease-out); }
+  .bar.is-scrolled { background: var(--v-canvas-85); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); box-shadow: 0 1px 0 var(--v-hair); }
+  .bar__mark { font-family: var(--v-font-display); font-weight: 700; font-size: var(--v-t-lg); letter-spacing: -.01em; text-decoration: none;
+    display: inline-flex; align-items: center; gap: .5em; min-height: 44px; white-space: nowrap; }
+  .bar__mark i { width: .8em; height: .8em; border-radius: 50%; border: .16em solid var(--v-accent); display: inline-block; position: relative; }
+  .bar__mark i::after { content: ""; position: absolute; left: 50%; top: -.16em; bottom: -.16em; width: .12em; margin-left: -.06em; background: var(--v-accent); }
+  .bar__right { display: flex; align-items: center; gap: var(--v-4); }
+  .bar__tel { text-decoration: none; font-weight: 600; font-size: var(--v-t-sm); color: var(--v-ink); display: inline-flex; align-items: center; min-height: 44px; padding: 0 var(--v-2); }
+  @media (max-width: 700px) {
+    .bar__tel { display: none; }
+    .bar .v-btn { padding: 0 1em; min-height: 44px; font-size: .9rem; }
+    .bar__right { gap: var(--v-2); }
+    .bar__mark { font-size: 1.1rem; }
+  }
+  @media (max-width: 860px) { .bar.is-scrolled { background: color-mix(in oklab, var(--v-canvas) 96%, transparent); } }
+  /* телефон: подписи не мельче 15 px (--v-t-sm на 390 px = 14 px) */
+  @media (max-width: 860px) {
+    .hero__tel, .hero__note, .rows p, .turn__text, .poka__fig figcaption, .xr__list em, .xr__meter, .step p, .plist .note, .prices__incl,
+    .nope li span, .reviews__meta, .reviews__rating, .reviews__fact, .close__hint, .close__meta { font-size: .95rem; }
+  }
+
+  /* ---- hero: площадка осмотра, оценщик у машины, один кадр на весь экран ---------- */
+  /* img внутри <picture>: селектор движка .v-layer > img не достаёт, позиционируем сами */
+  .hero__back img { position: absolute; max-width: none; width: 116%; height: 116%; left: -8%; top: -8%; object-fit: cover; }
+  .hero__floor { position: absolute; inset: auto 0 0 0; height: 34%; z-index: 2; pointer-events: none;
+    background: linear-gradient(to top, var(--v-canvas) 0%, var(--v-canvas-60) 45%, transparent 100%); }
+  /* компьютер: кадр прижат к левому краю – тёмная стена бокса целиком уходит под текст, оценщик и машина справа */
+  @media (min-width: 861px) {
+    .hero__back img { width: 100%; left: 0; object-position: 0% 50%; }
+    #top .v-scrim--lead { background: linear-gradient(to right, var(--v-canvas-60) 0%, var(--v-canvas-60) 30%, transparent 56%),
+      radial-gradient(120% 90% at 0% 100%, rgb(0 0 0 / .6) 0%, rgb(0 0 0 / .3) 38%, transparent 70%); }
+  }
+  /* ширина текста привязана к высоте экрана: стена занимает левые ~80svh кадра, текст не выходит на светлую часть */
+  .hero__copy { bottom: clamp(3rem, 8vh, 5.5rem); max-width: min(44rem, 86vw, 80svh - var(--v-gutter)); }
+  .hero__label { display: block; margin-bottom: var(--v-4); color: var(--v-ink); opacity: .85; }
+    /* H1 по формуле «что + для кого + УТП» длиннее прежнего: кегль между 2xl и 3xl, чтобы на 1440 было 3–4 строки, не 5 */
+  .hero__copy .v-display { font-size: clamp(2.4rem, min(1.2rem + 3vw, 7.2svh), 4.2rem); line-height: .98; }
+  .hero__copy .v-lede { margin-top: var(--v-5); color: var(--v-ink); opacity: .92; max-width: 40ch; }
+  .hero__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .hero__tel { text-decoration: none; color: var(--v-ink); font-size: var(--v-t-sm); display: inline-flex; align-items: center; min-height: 44px; gap: .35em; }
+  .hero__tel b { font-weight: 600; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+  .hero__note { position: absolute; z-index: 3; right: var(--v-gutter); bottom: clamp(3rem, 8vh, 5.5rem); text-align: right; display: grid; gap: .3em; font-size: var(--v-t-sm); color: var(--v-ink); }
+  .hero__note .v-nums { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); letter-spacing: -.01em; }
+  .hero__top { display: none; }
+  @media (max-width: 860px) {
+    /* телефон: сцена с машиной в нижней половине кадра, текст сверху на тёмной стене; нижний скрим движка не нужен – текст не внизу */
+    .hero__back img { top: 0; height: 112%; }
+    #top .v-scrim--lead { display: none; }
+    .hero__top { display: block; position: absolute; inset: 0 0 auto 0; height: 66%; z-index: 2; pointer-events: none;
+      background: linear-gradient(to bottom, var(--v-canvas-85) 0%, var(--v-canvas-85) 50%, var(--v-canvas-60) 80%, transparent 100%); }
+    .hero__tel { text-shadow: 0 1px 10px rgb(0 0 0 / .6); }
+    .hero__floor { height: 22%; }
+    .v-page .hero__copy { top: clamp(8rem, 22vh, 13rem); bottom: auto; left: clamp(2.25rem, 8vw, 4rem); right: var(--v-gutter); }
+    .hero__copy .v-display { font-size: var(--v-t-2xl); }
+    .hero__copy .v-lede { font-size: var(--v-t-base); margin-top: var(--v-4); max-width: none; }
+    .hero__label { margin-bottom: var(--v-3); }
+    .hero__cta { margin-top: var(--v-5); gap: var(--v-2) var(--v-5); }
+    .hero__note { display: none; }
+  }
+
+  /* ---- цена бездействия: строки боли, поворот, широкий кадр со шторкой ---- */
+  .poka__head { display: grid; gap: var(--v-3); margin-bottom: var(--v-7); max-width: 46rem; }
+  .poka__grid { display: grid; grid-template-columns: 1.1fr .9fr; gap: var(--v-9); align-items: start; margin-bottom: var(--v-8); }
+  .rows li { padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); display: grid; gap: var(--v-1); }
+  .rows li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .rows h3 { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); letter-spacing: var(--v-track-normal); line-height: 1.1; }
+  .rows p { color: var(--v-ink-soft); max-width: 46ch; text-wrap: pretty; }
+  .turn { position: sticky; top: clamp(5rem, 12vh, 7rem); padding: var(--v-6); border-radius: var(--v-radius); background: var(--v-surface); box-shadow: var(--v-e1), var(--v-edge); display: grid; gap: var(--v-3); }
+  .turn .v-label { color: var(--v-accent); }
+  .turn__text { font-size: var(--v-t-lg); line-height: 1.35; text-wrap: pretty; }
+  .turn__text b { font-weight: 600; }
+  .poka__fig { position: relative; aspect-ratio: 21 / 9; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-e2), var(--v-edge); }
+  .poka__fig img { width: 100%; height: 100%; object-fit: cover; }
+  .poka__fig figcaption { position: absolute; left: var(--v-5); right: var(--v-5); bottom: var(--v-5); z-index: 1; font-size: var(--v-t-sm); color: var(--v-ink); max-width: 46ch; }
+  .poka__fig::after { content: ""; position: absolute; inset: auto 0 0 0; height: 55%; background: linear-gradient(to top, rgb(0 0 0 / .8), rgb(0 0 0 / .3) 50%, transparent); pointer-events: none; }
+  @media (max-width: 860px) {
+    .poka__grid { grid-template-columns: 1fr; gap: var(--v-6); margin-bottom: var(--v-7); }
+    .turn { position: static; padding: var(--v-5); }
+    .rows h3 { font-size: var(--v-t-lg); }
+    .poka__fig { aspect-ratio: 4 / 3; }
+  }
+
+  /* ---- фирменный ход: «развёртка», скан по машине при осмотре --------------- */
+  .xr { height: 100%; display: grid; grid-template-rows: auto 1fr auto; padding: clamp(4.5rem, 11vh, 6.5rem) var(--v-gutter) clamp(1.5rem, 4vh, 3rem); gap: var(--v-4); }
+  .xr__head { display: grid; grid-template-columns: 1fr auto; align-items: start; gap: var(--v-6); }
+  .xr__copy { grid-area: 1 / 1; max-width: 46rem; display: grid; gap: var(--v-3); }
+  .xr__copy .v-display--md { font-size: clamp(1.7rem, 1.2rem + 2vw, 2.9rem); }
+  .xr__copy .v-body { max-width: 52ch; }
+  .xr__meter { grid-area: 1 / 2; text-align: right; display: grid; gap: .2em; font-size: var(--v-t-sm); }
+  .xr__meter b { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); line-height: 1; letter-spacing: -.01em; }
+  .xr__meter b span { color: var(--v-accent); }
+  .xr__fig { position: relative; justify-self: center; align-self: center; aspect-ratio: 16 / 9; width: min(100%, calc((100svh - 25rem) * 16 / 9)); container-type: size;
+    border-radius: var(--v-radius); overflow: visible; }
+  .xr__photo, .xr__scan { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; border-radius: var(--v-radius); }
+  .xr__scan { filter: grayscale(1) contrast(1.35) brightness(1.12); clip-path: inset(0 calc((1 - var(--v-p, 0)) * 100%) 0 0); }
+  .xr__grid { position: absolute; inset: 0; border-radius: var(--v-radius); pointer-events: none;
+    background: repeating-linear-gradient(90deg, var(--v-hair) 0 1px, transparent 1px 2.5rem), repeating-linear-gradient(0deg, var(--v-hair) 0 1px, transparent 1px 2.5rem), var(--v-accent-10);
+    clip-path: inset(0 calc((1 - var(--v-p, 0)) * 100%) 0 0); }
+  .xr__line { position: absolute; top: -6%; bottom: -6%; left: calc(var(--v-p, 0) * 100%); width: 2px; margin-left: -1px; background: var(--v-accent); pointer-events: none; }
+  .xr__line::before { content: ""; position: absolute; right: 0; top: 0; bottom: 0; width: 3rem; background: linear-gradient(to left, var(--v-accent-25), transparent); }
+  .xr__nodes { position: absolute; inset: 0; margin: 0; padding: 0; list-style: none; }
+  .xr__node { position: absolute; left: calc(var(--x) * 100%); top: calc(var(--y) * 100%); width: 0; height: 0; --on: clamp(0, (var(--v-p, 0) - var(--x)) * 14, 1); }
+  .xr__node i { position: absolute; left: -6px; top: -6px; width: 12px; height: 12px; border-radius: 50%; background: var(--v-accent); box-shadow: 0 0 0 3px var(--v-canvas);
+    opacity: var(--on); transform: scale(calc(.4 + .6 * var(--on))); }
+  .xr__node::before { content: ""; position: absolute; left: -1px; width: 2px; height: var(--l); background: var(--v-accent); opacity: calc(var(--on) * .8); }
+  .xr__node--up::before { bottom: 0; transform-origin: bottom; transform: scaleY(var(--on)); }
+  .xr__node--down::before { top: 0; transform-origin: top; transform: scaleY(var(--on)); }
+  .xr__node span { position: absolute; left: 0; width: max-content; max-width: 15rem; transform: translateX(-50%) translateY(calc((1 - var(--on)) * 8px)); opacity: var(--on);
+    display: grid; gap: .15em; text-align: center; padding: .55em .8em .6em; border-radius: var(--v-radius); background: var(--v-canvas-85); box-shadow: 0 0 0 1px var(--v-hair), var(--v-e1); }
+  .xr__node--up span { bottom: calc(var(--l) + .5rem); }
+  .xr__node--down span { top: calc(var(--l) + .5rem); }
+  .xr__node b { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-base); line-height: 1.15; letter-spacing: -.01em; }
+  .xr__node em { font-style: normal; font-size: var(--v-t-xs); color: var(--v-ink-soft); }
+  .xr__node strong { font-weight: 600; font-size: var(--v-t-sm); color: var(--v-accent); }
+  .xr__list { display: none; }
+  @media (max-width: 860px) {
+    .xr { grid-template-rows: auto auto 1fr; padding-top: 4.5rem; gap: var(--v-3); }
+    .xr__head { grid-template-columns: 1fr; }
+    .xr__copy { max-width: none; gap: var(--v-2); }
+    .xr__copy .v-display--md { font-size: var(--v-t-xl); }
+    .xr__copy .v-body { font-size: var(--v-t-sm); }
+    .xr__meter { grid-area: 2 / 1; text-align: left; display: flex; align-items: baseline; gap: .6em; }
+    .xr__meter b { font-size: var(--v-t-lg); }
+    .xr__fig { width: 100%; align-self: start; }
+    .xr__node span, .xr__node::before { display: none; }
+    .xr__list { display: grid; align-self: start; margin: 0; padding: 0; list-style: none; }
+    .xr__list li { --on: clamp(0, (var(--v-p, 0) - var(--x)) * 14, 1); display: grid; grid-template-columns: auto 1fr auto; gap: .2em var(--v-3); align-items: baseline; padding: .55rem 0; border-top: 1px solid var(--v-hair);
+      opacity: calc(.38 + .62 * var(--on)); }
+    .xr__list li:last-child { border-bottom: 1px solid var(--v-hair); }
+    .xr__list i { width: 8px; height: 8px; border-radius: 50%; background: var(--v-accent); align-self: center; transform: scale(calc(.4 + .6 * var(--on))); }
+    .xr__list b { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-base); }
+    .xr__list em { grid-column: 2; font-style: normal; color: var(--v-ink-soft); }
+    .xr__list strong { grid-column: 3; grid-row: 1 / span 2; font-weight: 600; color: var(--v-accent); white-space: nowrap; }
+  }
+  @media (max-width: 600px) and (max-height: 760px) { .xr__copy .v-body { display: none; } .xr__list li { padding: .4rem 0; } .xr__list em { display: none; } }
+
+  /* ---- как проходит сделка: лента шагов ---------------------------------------- */
+  .kak { height: 100%; display: flex; align-items: center; }
+  .rail { padding-inline: var(--v-gutter); align-items: stretch; }
+  .step { flex: none; width: 24rem; min-height: min(68svh, 32rem); display: grid; grid-template-rows: auto 1fr; gap: var(--v-4); padding: var(--v-6); border-radius: var(--v-radius);
+    background: var(--v-surface); box-shadow: var(--v-e1), var(--v-edge); }
+  .step--title { width: 28rem; background: transparent; box-shadow: none; padding-left: 0; grid-template-rows: auto auto 1fr; align-content: center; }
+  .step--title .v-display--lg { font-size: clamp(2rem, 1.3rem + 2.6vw, 3.6rem); }
+  .step--title p { align-self: end; max-width: 30ch; }
+  .step__label { color: var(--v-accent); }
+  .step__body { display: grid; gap: var(--v-3); align-content: start; }
+  .step h3 { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); letter-spacing: var(--v-track-normal); line-height: 1.1; text-wrap: balance; }
+  .step p { color: var(--v-ink-soft); text-wrap: pretty; }
+  .step--photo { width: 30rem; grid-template-rows: auto auto 1fr; }
+  .step__fig { aspect-ratio: 4 / 3; border-radius: var(--v-radius); overflow: hidden; box-shadow: var(--v-edge); }
+  .step__fig img { width: 100%; height: 100%; object-fit: cover; object-position: center 60%; }
+  .step--last { box-shadow: var(--v-e2), inset 0 0 0 1px var(--v-accent-25); }
+  @media (max-width: 860px) {
+    .step { width: 78vw; min-height: 0; padding: var(--v-5); }
+    .step--title { width: 78vw; padding-left: 0; min-height: 0; }
+    .step--title p { align-self: start; }
+    .step--photo { width: 78vw; }
+    .step__fig { aspect-ratio: 16 / 10; }
+    .step h3 { font-size: var(--v-t-lg); }
+  }
+  @media (pointer: coarse) {
+    .v-page .kak { display: block; padding-block: var(--v-section); }
+    .v-page .rail { padding-block: var(--v-2); }
+    /* отступ слева у заголовка ленты, чтобы текст не прилипал к краю при прокрутке */
+    .v-page .step--title { padding-left: var(--v-5); }
+  }
+
+  /* ---- что выкупаем и из чего цена: две колонки строк и карточка «чего не будет» ------------------- */
+  .prices { display: grid; grid-template-columns: 1.5fr .6fr; gap: var(--v-9); align-items: start; }
+  .prices__cols { display: grid; grid-template-columns: 1fr 1fr; gap: var(--v-7); }
+  .plist h3 { margin-bottom: var(--v-3); color: var(--v-accent); font-weight: 500; }
+  .plist li { display: grid; grid-template-columns: 1fr auto; gap: var(--v-1) var(--v-5); padding: var(--v-4) 0; border-top: 1px solid var(--v-hair); align-items: baseline; }
+  .plist li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .plist .name { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-lg); letter-spacing: var(--v-track-normal); line-height: 1.15; }
+  .plist .note { grid-column: 1; font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 36ch; }
+  .plist .price { grid-column: 2; grid-row: 1 / span 2; align-self: start; font-weight: 600; font-size: var(--v-t-base); color: var(--v-accent); white-space: nowrap; }
+  .prices__incl { font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 62ch; }
+  .prices__incl b { color: var(--v-ink); font-weight: 600; }
+  .prices__aside { position: sticky; top: clamp(5rem, 12vh, 7rem); }
+  .nope { padding: var(--v-6); border-radius: var(--v-radius); background: var(--v-surface); box-shadow: var(--v-e2), var(--v-edge); display: grid; gap: var(--v-4); }
+  .nope .v-label { color: var(--v-accent); }
+  .nope li { padding: var(--v-3) 0; border-top: 1px solid var(--v-hair); display: grid; gap: .2em; }
+  .nope li:last-child { border-bottom: 1px solid var(--v-hair); }
+  .nope li b { font-weight: 600; }
+  .nope li span { font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 1100px) { .prices__cols { grid-template-columns: 1fr; } }
+  @media (max-width: 860px) {
+    .prices { grid-template-columns: 1fr; gap: var(--v-7); }
+    .prices__aside { position: static; }
+    .nope { padding: var(--v-5); }
+    .plist .name { font-size: var(--v-t-base); }
+  }
+
+  /* ---- отзывы с Яндекс.Карт: рейтинг слева, список с линиями справа ----------- */
+  .reviews { display: grid; grid-template-columns: .8fr 1.2fr; gap: var(--v-9); align-items: start; }
+  .reviews__head { position: sticky; top: clamp(5rem, 12vh, 7rem); display: grid; gap: var(--v-4); }
+  .reviews__rating { display: grid; gap: var(--v-2); font-size: var(--v-t-sm); justify-items: start; }
+  .reviews__rating a { display: inline-flex; align-items: center; min-height: 44px; }
+  .reviews__num { font-family: var(--v-font-display); font-weight: 700; font-size: var(--v-t-3xl); line-height: 1; letter-spacing: -.02em; }
+  .reviews__stars { --size: 1.2rem; display: inline-block; width: calc(var(--size) * 5); height: var(--size);
+    background: linear-gradient(90deg, var(--v-accent) calc(var(--r, 0) / 5 * 100%), var(--v-hair-strong) 0);
+    -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z'/%3E%3C/svg%3E") 0 0 / var(--size) var(--size) repeat-x;
+    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z'/%3E%3C/svg%3E") 0 0 / var(--size) var(--size) repeat-x; }
+  .reviews__stars--sm { --size: .8rem; vertical-align: middle; }
+  .reviews__item { padding: var(--v-5) 0; border-top: 1px solid var(--v-hair); }
+  .reviews__item:last-of-type { border-bottom: 1px solid var(--v-hair); }
+  .reviews__item--big .reviews__text { font-size: var(--v-t-lg); line-height: 1.4; }
+  .reviews__text { text-wrap: pretty; max-width: 60ch; }
+  .reviews__meta { margin-top: var(--v-3); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  .reviews__meta b { color: var(--v-ink); font-weight: 600; }
+  .reviews__fact { margin-top: var(--v-5); font-size: var(--v-t-sm); color: var(--v-ink-soft); }
+  @media (max-width: 860px) { .reviews { grid-template-columns: 1fr; gap: var(--v-6); } .reviews__head { position: static; } .reviews__num { font-size: var(--v-t-2xl); } }
+
+  /* ---- финал: заявка на оценку --------------------------------------------------- */
+  .close { min-height: 100svh; display: grid; grid-template-rows: 1fr auto; padding: clamp(6rem, 14vh, 9rem) var(--v-gutter) var(--v-6);
+    background: radial-gradient(60rem 40rem at calc(var(--v-mx, .5) * 100%) calc(var(--v-my, .5) * 100%), var(--v-accent-25), transparent 60%); }
+  .close__inner { align-self: center; display: grid; grid-template-columns: 1.25fr .75fr; gap: var(--v-9); align-items: start; padding-bottom: var(--v-9); }
+  .close__inner .v-display { margin-bottom: var(--v-5); }
+  .close__inner .v-lede { max-width: 42ch; }
+  .close__cta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v-4) var(--v-6); margin-top: var(--v-6); }
+  .close__tel { font-family: var(--v-font-display); font-weight: 600; font-size: var(--v-t-xl); text-decoration: none; display: inline-flex; align-items: center; min-height: 44px; color: var(--v-ink); letter-spacing: -.01em; }
+  .close__hint { margin-top: var(--v-6); font-size: var(--v-t-sm); color: var(--v-ink-soft); max-width: 46ch; }
+  .close__meta { display: grid; gap: var(--v-3); color: var(--v-ink-soft); padding-top: var(--v-2); }
+  .close__meta b { color: var(--v-ink); font-weight: 600; display: block; font-size: var(--v-t-xs); letter-spacing: var(--v-track-wide); text-transform: uppercase; margin-bottom: .2em; }
+  .foot { display: flex; justify-content: space-between; gap: var(--v-4); padding: var(--v-6) 0 0; border-top: 1px solid var(--v-hair); font-size: var(--v-t-xs); color: var(--v-ink-soft); flex-wrap: wrap; }
+  @media (max-width: 860px) {
+    .close { min-height: 0; padding: clamp(5rem, 12vh, 7rem) var(--v-gutter) calc(var(--v-6) + env(safe-area-inset-bottom)); }
+    .close__inner { grid-template-columns: 1fr; gap: var(--v-7); padding-bottom: var(--v-8); }
+    .close__tel { font-size: var(--v-t-lg); }
+    .foot__more { display: none; }
+  }
+
+  /* ---- закреплённая кнопка внизу экрана на телефоне: не надо бегать за кнопкой по странице ---- */
+  .cta-fix { display: none; }
+  @media (max-width: 860px) {
+    .cta-fix { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; display: block; padding: var(--v-4) var(--v-gutter) calc(var(--v-4) + env(safe-area-inset-bottom));
+      background: linear-gradient(to top, var(--v-canvas) 65%, transparent); }
+    .cta-fix .v-btn { width: 100%; justify-content: center; text-align: center; }
+    .cta-fix.is-hidden { display: none; }
+    /* нижний отступ страницы, чтобы закреплённая кнопка не наезжала на футер */
+    #zapis .close { padding-bottom: calc(var(--v-8) + 4.5rem + env(safe-area-inset-bottom)); }
+  }
+</style>
+</head>
+<body>
+<div class="v-page">
+  <span data-v-progress></span>
+  <div class="v-grain" aria-hidden="true"></div>
+
+  <header class="bar">
+    <a class="bar__mark" href="#top"><i aria-hidden="true"></i>Выкуп Авто</a>
+    <nav class="bar__right" aria-label="Быстрые ссылки">
+      <a class="bar__tel" href="tel:+79000000000">+7 900 000-00-00</a>
+      <a class="v-btn" href="https://t.me/vykup_avto_barnaul" rel="noopener">Оценить моё авто</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 1 · УЗНАВАНИЕ: осмотр на площадке на весь экран -->
+    <section id="top" data-v-act="pin" data-v-span="2.0" data-v-drift="#0c0d0f" aria-label="Срочный выкуп автомобилей">
+      <div data-v-stage>
+        <div class="v-layer hero__back" data-v-parallax="-0.7">
+          <picture>
+            <source media="(max-width: 860px)" srcset="assets/hero-m.webp">
+            <img src="assets/hero.webp" alt="" width="1920" height="1080" fetchpriority="high">
+          </picture>
+        </div>
+        <div class="hero__top" aria-hidden="true"></div>
+        <div class="hero__floor" aria-hidden="true"></div>
+        <div class="v-scrim v-scrim--lead" aria-hidden="true"></div>
+
+        <div class="hero__note" data-v-cue="0 0.6 0" data-v-rise="0">
+          <span class="v-label">Осмотр по записи</span>
+          <span class="v-nums">09:00 – 21:00, без выходных</span>
+          <span>Расчёт 40 минут</span>
+        </div>
+
+        <div class="v-copy v-copy--lead hero__copy" data-v-cue="0 1 0 0">
+          <span class="v-label hero__label">Срочный выкуп автомобилей</span>
+          <h1 class="v-display v-display--xl" data-v-kinetic="lines">Срочный выкуп авто в Барнауле: деньги в день обращения</h1>
+          <p class="v-lede">Осмотр и расчёт при вас, цена после осмотра не меняется, деньги сразу, договор в офисе или на выезде.</p>
+          <div class="hero__cta">
+            <a class="v-btn" href="https://t.me/vykup_avto_barnaul" rel="noopener">Оценить моё авто</a>
+            <a class="hero__tel" href="tel:+79000000000">или позвоните <b>+7 900 000-00-00</b></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2 · ЦЕНА БЕЗДЕЙСТВИЯ и ПОВОРОТ: «оценим по фото» -->
+    <section class="v-section v-section--tight" data-v-act="flow" data-v-drift="#111316" id="poka" aria-label="Почему оценка по телефону дорого обходится">
+      <div class="v-wrap">
+        <div class="poka__head" data-v-in data-v-stagger="70">
+          <span class="v-label">Пока у других: «оценим по фото»</span>
+          <h2 class="v-display v-display--lg">Оценка по телефону – это цена, которая не доживёт до осмотра</h2>
+        </div>
+        <div class="poka__grid">
+          <ul class="rows" data-v-in data-v-stagger="80">
+            <li><h3>Цена по телефону умирает на месте</h3><p>Назвали одну сумму, при встрече – минус сорок тысяч «за состояние». Спорить поздно: вы уже приехали, время потрачено.</p></li>
+            <li><h3>«Бесплатный выезд» с условием</h3><p>Оценщик приезжает не чтобы купить, а чтобы вы никому больше не позвонили. Уезжает с вашим временем и надеждой на сделку.</p></li>
+            <li><h3>«Деньги сегодня» становятся «завтра»</h3><p>Машину забрали, договор подписан, а деньги «уже в пути». Ждёте перевод, который никак не приходит.</p></li>
+          </ul>
+          <div class="turn" data-v-in data-v-in-self>
+            <span class="v-label">Поэтому</span>
+            <p class="turn__text">Осмотр и расчёт при вас за 40 минут. Цену называем <b>после осмотра</b> – и она не двигается. Деньги сразу, договор на месте.</p>
+          </div>
+        </div>
+        <figure class="poka__fig" data-v-reveal="down" data-v-reveal-at="0.42 0.68">
+          <img src="assets/wait.webp" srcset="assets/wait-900.webp 900w, assets/wait.webp 1600w" sizes="(max-width: 860px) 100vw, 76rem" alt="Машина на подъёмнике в тёмном боксе осмотра" width="1600" height="900" loading="lazy" decoding="async">
+          <figcaption>Так выглядит честный осмотр: машина на подъёмнике, а не «оценка по фото» в мессенджере</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- 3 · ПОВОРОТ → ДОКАЗАТЕЛЬСТВО: «развёртка», фирменный ход -->
+    <section id="prosvet" data-v-act="pin" data-v-span="2.4" data-v-drift="#0a0b0d" aria-label="Из чего складывается цена">
+      <div data-v-stage>
+        <div class="xr">
+          <div class="xr__head">
+            <div class="xr__copy" data-v-cue="0 0.5 0 0.06">
+              <span class="v-label">Осмотр</span>
+              <h2 class="v-display v-display--md">Из чего складывается цена вашей машины</h2>
+              <p class="v-body v-soft">Пять пунктов осмотра, по каждому видно, что поднимает цену, а что её снижает. Расчёт при вас, а не «за кулисами».</p>
+            </div>
+            <div class="xr__copy" data-v-cue="0.5 1 0.06 0">
+              <span class="v-label">Честный расчёт</span>
+              <h2 class="v-display v-display--md">Каждый минус цены – с причиной, а не «так принято»</h2>
+              <p class="v-body v-soft">Показываем, откуда взялась каждая скидка, и что можно сделать, чтобы цена была выше. Решаете вы.</p>
+            </div>
+            <div class="xr__meter" aria-live="polite">
+              <span class="v-label">Пунктов проверено</span>
+              <b class="v-nums"><span data-xr-n>0</span> / 5</b>
+            </div>
+          </div>
+
+          <figure class="xr__fig" aria-label="Схема осмотра машины при выкупе">
+            <img class="xr__photo" src="assets/side.webp" srcset="assets/side-1000.webp 1000w, assets/side.webp 1920w" sizes="(max-width: 860px) 100vw, 80vw" alt="Машина в профиль под жёстким светом" width="1920" height="1080" loading="lazy" decoding="async">
+            <img class="xr__scan" src="assets/side.webp" srcset="assets/side-1000.webp 1000w, assets/side.webp 1920w" sizes="(max-width: 860px) 100vw, 80vw" alt="" width="1920" height="1080" loading="lazy" decoding="async" aria-hidden="true">
+            <div class="xr__grid" aria-hidden="true"></div>
+            <div class="xr__line" aria-hidden="true"></div>
+            <ul class="xr__nodes" aria-hidden="true">
+              <li class="xr__node xr__node--down" style="--x:.30;--y:.73;--l:13cqh"><i></i><span><b>Ходовая</b><em>Стойки, рычаги, люфты</em><strong>на подъёмнике</strong></span></li>
+              <li class="xr__node xr__node--up" style="--x:.46;--y:.40;--l:14cqh"><i></i><span><b>Кузов и ЛКП</b><em>Толщиномер, окрасы, зазоры</em><strong>проверяем</strong></span></li>
+              <li class="xr__node xr__node--down" style="--x:.52;--y:.79;--l:9cqh"><i></i><span><b>Электрика</b><em>Ошибки по OBD, датчики</em><strong>сканером</strong></span></li>
+              <li class="xr__node xr__node--down" style="--x:.72;--y:.71;--l:13cqh"><i></i><span><b>Тормоза</b><em>Диски, колодки, за ось</em><strong>смотрим</strong></span></li>
+              <li class="xr__node xr__node--up" style="--x:.82;--y:.58;--l:26cqh"><i></i><span><b>Двигатель и коробка</b><em>Работа на холостых, утечки</em><strong>на тесте</strong></span></li>
+            </ul>
+          </figure>
+
+          <ol class="xr__list">
+            <li style="--x:.30"><i aria-hidden="true"></i><b>Ходовая</b><em>Стойки, рычаги, люфты</em><strong>на подъёмнике</strong></li>
+            <li style="--x:.46"><i aria-hidden="true"></i><b>Кузов и ЛКП</b><em>Толщиномер, окрасы, зазоры</em><strong>проверяем</strong></li>
+            <li style="--x:.52"><i aria-hidden="true"></i><b>Электрика</b><em>Ошибки по OBD, датчики</em><strong>сканером</strong></li>
+            <li style="--x:.72"><i aria-hidden="true"></i><b>Тормоза</b><em>Диски, колодки, за ось</em><strong>смотрим</strong></li>
+            <li style="--x:.82"><i aria-hidden="true"></i><b>Двигатель и коробка</b><em>Работа на холостых, утечки</em><strong>на тесте</strong></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4 · ДОКАЗАТЕЛЬСТВО: как проходит сделка, лента шагов -->
+    <section id="kak" data-v-act="pan" data-v-span="2.5" data-v-drift="#111316" aria-label="Как проходит сделка">
+      <div data-v-stage>
+        <div class="kak">
+          <div class="rail" data-v-pan="0.04">
+            <div class="step step--title">
+              <span class="v-label">Как проходит сделка</span>
+              <h2 class="v-display v-display--lg">Четыре шага от заявки до денег</h2>
+              <p class="v-soft">Без вашего согласия ни на одном шаге ничего не подписываем и ничего не забираем.</p>
+            </div>
+            <article class="step">
+              <span class="v-label step__label">Шаг 1 · заявка</span>
+              <div class="step__body">
+                <h3>Напишите марку, год и пробег – назовём вилку цены</h3>
+                <p>Ориентир – по рынку на вашу модель. Точную цену называем только после осмотра, и она совпадает с договором.</p>
+              </div>
+            </article>
+            <article class="step step--photo">
+              <span class="v-label step__label">Шаг 2 · осмотр</span>
+              <figure class="step__fig">
+                <img src="assets/parts.webp" srcset="assets/parts-480.webp 480w, assets/parts.webp 900w" sizes="(max-width: 860px) 78vw, 30rem" alt="Рука оценщика прижимает толщиномер краски к крылу автомобиля" width="900" height="1200" loading="lazy" decoding="async">
+              </figure>
+              <div class="step__body">
+                <h3>Осматриваем при вас и показываем расчёт по каждому пункту</h3>
+                <p>Кузов толщиномером, ходовую на подъёмнике, ошибки по сканеру. Каждый минус цены – с причиной, а не «так принято».</p>
+              </div>
+            </article>
+            <article class="step">
+              <span class="v-label step__label">Шаг 3 · сделка</span>
+              <div class="step__body">
+                <h3>Договор купли-продажи и деньги – сразу</h3>
+                <p>Сумму фиксируем в договоре до передачи ключей. Деньги – наличными или переводом на месте, а не «завтра».</p>
+              </div>
+            </article>
+            <article class="step step--photo step--last">
+              <span class="v-label step__label">Шаг 4 · переоформление</span>
+              <figure class="step__fig">
+                <img src="assets/seat.webp" srcset="assets/seat-480.webp 480w, assets/seat.webp 900w" sizes="(max-width: 860px) 78vw, 30rem" alt="Рука передаёт ключи от автомобиля над капотом" width="900" height="1200" loading="lazy" decoding="async">
+              </figure>
+              <div class="step__body">
+                <h3>Снимаем машину с учёта – штрафы не придут к вам</h3>
+                <p>Переоформление делаем мы, вы не получаете чужие штрафы. Документы о сделке остаются у вас.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 · ВЫБОР: что выкупаем и из чего цена -->
+    <section class="v-section" data-v-act="flow" data-v-drift="#0c0d0f" id="ceny" aria-label="Что выкупаем и из чего складывается цена">
+      <div class="v-wrap prices">
+        <div class="v-stack" data-v-in data-v-stagger="60">
+          <h2 class="v-display v-display--lg">Что выкупаем и из чего складывается цена</h2>
+          <p class="v-body v-soft">Точную цену называем после осмотра – и она не меняется. Ниже – что берём и на что смотрит оценщик.</p>
+          <div class="prices__cols">
+            <div class="plist">
+              <h3 class="v-label">Выкупаем</h3>
+              <ul>
+                <li><span class="name">Легковые и кроссоверы</span><span class="note">Любых марок и годов, с пробегом</span><span class="price v-nums">да</span></li>
+                <li><span class="name">Коммерческий транспорт</span><span class="note">Микроавтобусы, фургоны, лёгкие грузовики</span><span class="price v-nums">да</span></li>
+                <li><span class="name">Авто в кредите или лизинге</span><span class="note">Поможем погасить кредит и оформить сделку</span><span class="price v-nums">да</span></li>
+                <li><span class="name">После ДТП и не на ходу</span><span class="note">С повреждениями, на эвакуаторе</span><span class="price v-nums">да</span></li>
+              </ul>
+            </div>
+            <div class="plist">
+              <h3 class="v-label">Цена зависит от</h3>
+              <ul>
+                <li><span class="name">Года и пробега</span><span class="note">Сверяемся с рынком на вашу модель</span><span class="price v-nums">± к цене</span></li>
+                <li><span class="name">Состояния кузова</span><span class="note">Окрасы и ДТП по толщиномеру</span><span class="price v-nums">± к цене</span></li>
+                <li><span class="name">Техники</span><span class="note">Двигатель, коробка, ходовая</span><span class="price v-nums">± к цене</span></li>
+                <li><span class="name">Документов</span><span class="note">ПТС, залоги, ограничения</span><span class="price v-nums">± к цене</span></li>
+              </ul>
+            </div>
+          </div>
+          <p class="prices__incl"><b>Осмотр и расчёт занимают 40 минут.</b> Выезд оценщика – без предоплаты и обязательств: если цена не устроит, просто расходитесь.</p>
+        </div>
+        <aside class="prices__aside" data-v-in data-v-in-self>
+          <div class="nope" data-v-tilt="5">
+            <span class="v-label">Чего у нас не будет</span>
+            <ul>
+              <li><b>Цена после осмотра ниже названной</b><span>Вилку говорим до, точную цену – после осмотра, и она не двигается.</span></li>
+              <li><b>Машина уехала, деньги «в пути»</b><span>Деньги – до передачи ключей, наличными или переводом на месте.</span></li>
+              <li><b>Одна цена по телефону, другая на месте</b><span>Сумма в договоре равна сумме, о которой договорились.</span></li>
+              <li><b>Комиссии и «услуги оценки»</b><span>В чеке только цена машины, никаких скрытых вычетов.</span></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- 7 · ДЕЙСТВИЕ: заявка на оценку -->
+    <section data-v-act="flow" data-v-drift="#0c0d0f" id="zapis" aria-label="Оценить моё авто">
+      <div class="close" data-v-spotlight>
+        <div class="close__inner">
+          <div data-v-in data-v-stagger="80">
+            <h2 class="v-display v-display--lg">Узнайте цену своей машины сегодня</h2>
+            <p class="v-lede">Напишите марку, год и пробег. Назовём вилку по рынку и договоримся об осмотре – цена после него не изменится.</p>
+            <div class="close__cta">
+              <a class="v-btn" href="https://t.me/vykup_avto_barnaul" rel="noopener">Оценить моё авто</a>
+              <a class="close__tel" href="tel:+79000000000">+7 900 000-00-00</a>
+            </div>
+            <p class="close__hint">Отвечаем в часы работы. Не любите писать – звоните, вилку цены назовём по телефону.</p>
+          </div>
+          <div class="close__meta" data-v-in data-v-stagger="60">
+            <span><b>Часы работы</b>09:00 – 21:00, без выходных</span>
+            <span><b>Осмотр и расчёт</b>40 минут, по записи</span>
+            <span><b>Оформление</b>Договор купли-продажи, снятие с учёта</span>
+            <span><b>Адрес</b>пр. Ленина, 100, Барнаул</span>
+          </div>
+        </div>
+        <footer class="foot">
+          <span>Выкуп Авто · Барнаул</span>
+          <span data-slot-optional>ИП Тестов Т. Т. · ИНН 000000000000</span>
+          <span class="foot__more">Срочный выкуп автомобилей: легковые, кроссоверы, коммерческий транспорт, авто в кредите и после ДТП</span>
+        </footer>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- закреплённая кнопка заявки: на телефоне видна всегда, кроме первого экрана и финала -->
+  <div class="cta-fix is-hidden">
+    <a class="v-btn" href="https://t.me/vykup_avto_barnaul" rel="noopener">Оценить моё авто</a>
+  </div>
+</div>
+
+<script src="vibe.js"></script>
+<script>
+  // На телефоне пины короче: data-v-span из CSS не поменять, правим атрибут до монтирования.
+  if (window.matchMedia('(max-width: 860px)').matches) {
+    document.getElementById('top').setAttribute('data-v-span', '1.7');
+    // на телефоне верх кадра – глухая тёмная стена под текст: оффер держим до конца акта, иначе верх экрана пустой
+    document.querySelector('#top .hero__copy').setAttribute('data-v-cue', '0 1 0 0');
+    document.getElementById('prosvet').setAttribute('data-v-span', '2.2');
+  }
+  Vibe.mount(document.querySelector('.v-page'));
+
+  // Шапка: подложка после 40 px прокрутки, чтобы текст секций не просвечивал.
+  (function () {
+    var bar = document.querySelector('.bar'), on = null;
+    function tick() { var s = window.scrollY > 40; if (s !== on) { on = s; bar.classList.toggle('is-scrolled', s); } }
+    window.addEventListener('scroll', tick, { passive: true }); tick();
+  })();
+
+  // Фирменный ход «развёртка»: скан и узлы живут в CSS от --v-p; скрипту остаётся счётчик «пунктов проверено».
+  (function () {
+    var act = document.getElementById('prosvet'), out = act.querySelector('[data-xr-n]');
+    var xs = Array.prototype.map.call(act.querySelectorAll('.xr__node'), function (n) { return parseFloat(getComputedStyle(n).getPropertyValue('--x')) || 0; });
+    var last = -1, live = false;
+    function tick() {
+      var p = parseFloat(getComputedStyle(act).getPropertyValue('--v-p')) || 0, n = 0;
+      for (var i = 0; i < xs.length; i++) if (p >= xs[i] + 0.04) n++;
+      if (n !== last) { last = n; out.textContent = n; }
+      if (live) requestAnimationFrame(tick);
+    }
+    new IntersectionObserver(function (es) { live = es[0].isIntersecting; if (live) tick(); }).observe(act);
+    tick();
+  })();
+
+  // Закреплённая кнопка на телефоне: скрыта на первом экране и в финале (там своя кнопка).
+  (function () {
+    var fix = document.querySelector('.cta-fix');
+    if (!fix) return;
+    var top = document.getElementById('top'), zapis = document.getElementById('zapis');
+    function upd() {
+      var pastTop = window.scrollY > top.offsetHeight * 0.85;
+      var zr = zapis.getBoundingClientRect();
+      var nearEnd = zr.top < window.innerHeight * 0.75;
+      fix.classList.toggle('is-hidden', !pastTop || nearEnd);
+    }
+    window.addEventListener('scroll', upd, { passive: true });
+    window.addEventListener('resize', upd);
+    upd();
+  })();
+</script>
+</body>
+</html>
